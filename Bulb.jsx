@@ -12,7 +12,7 @@ function Bulb() {
   return (
      
     <div className="bulb-container">
-    <img src={isOn ? require('./assets/depositphotos_23575953-stock-photo-light-bulb.jpg'): require('./assets/led-light-bulb.jpg')} alt="Bulb"  className="bulb-image"/>
+    <img src={isOn ? require('./depositphotos_23575953-stock-photo-light-bulb.jpg'): require('./led-light-bulb.jpg')} alt="Bulb"  className="bulb-image"/>
     <button onClick={toggleBulb}>
         {isOn ? 'Turn Off' : 'Turn On'}
     </button>
